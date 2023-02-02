@@ -70,9 +70,8 @@ function App() {
         .then((res) => res.json())
         .then((res) => console.log(res));
     });
+    throw new Error("Nie znaleziono metody zapisu");
   };
-
-  const onError = () => {};
 
   return (
     <div className="App">
