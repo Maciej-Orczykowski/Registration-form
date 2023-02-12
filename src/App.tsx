@@ -86,7 +86,6 @@ function App() {
         />
         <input
           {...register("surName")}
-          id="surName"
           className="Input"
           type="text"
           placeholder="Surname"
@@ -97,10 +96,8 @@ function App() {
           <option value="business">Business</option>
         </select>
         <div>{userType()}</div>
-
         <input
           {...register("image")}
-          id="image"
           className="Input"
           type="file"
           accept=".png, .jpg, jpeg"

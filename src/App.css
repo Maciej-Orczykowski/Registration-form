@@ -2,44 +2,198 @@ body {
   background-color: rgb(46, 100, 150);
 }
 
-.App {
-  text-align: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
+/* mobile styles */
+@media screen and (min-width: 320px) {
+  .App {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Header {
+    font-size: 450%;
+    font-weight: 500;
+    margin-top: 10%;
+  }
+
+  .Body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+    width: 65%;
+    padding-top: 4%;
+  }
+
+  .Input {
+    font-size: 110%;
+    padding: 2%;
+  }
+
+  .Special-Input {
+    font-size: 110%;
+    padding: 2%;
+    width: 94%;
+  }
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+
+  .Radius {
+    border-radius: 10%;
+  }
+
+  .Submit {
+    font-size: 120%;
+  }
 }
 
-.Header {
-  font-size: 400%;
-  font-weight: 600;
-  margin-top: 10%;
+/* tablet styles */
+@media screen and (min-width: 600px) {
+  .App {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Header {
+    font-size: 450%;
+    font-weight: 500;
+    margin-top: 10%;
+  }
+
+  .Body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+    width: 30%;
+    padding-top: 4%;
+  }
+
+  .Input {
+    font-size: 110%;
+    padding: 2%;
+  }
+
+  .Special-Input {
+    font-size: 110%;
+    padding: 2%;
+    width: 95%;
+  }
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+
+  .Radius {
+    border-radius: 10%;
+  }
+
+  .Submit {
+    font-size: 120%;
+  }
 }
 
-.Body {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  width: 13%;
-  padding-top: 1%;
+/* laptop styles */
+@media screen and (min-width: 1024px) {
+  .App {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Header {
+    font-size: 450%;
+    font-weight: 500;
+    margin-top: 10%;
+  }
+
+  .Body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+    width: 30%;
+    padding-top: 4%;
+  }
+
+  .Input {
+    font-size: 110%;
+    padding: 2%;
+  }
+
+  .Special-Input {
+    font-size: 110%;
+    padding: 2%;
+    width: 94%;
+  }
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+
+  .Radius {
+    border-radius: 10%;
+  }
+
+  .Submit {
+    font-size: 120%;
+  }
 }
 
-.Input {
-  font-size: 125%;
-  padding: 2%;
-}
+/* desktop styles */
+@media screen and (min-width: 1200px) {
+  .App {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
 
-.Special-Input {
-  font-size: 125%;
-  padding: 2%;
-  width: 94.5%;
-}
+  .Header {
+    font-size: 450%;
+    font-weight: 500;
+    margin-top: 10%;
+  }
 
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
+  .Body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+    width: 20%;
+    padding-top: 2%;
+  }
 
-.Radius {
-  border-radius: 10%;
+  .Input {
+    font-size: 110%;
+    padding: 2%;
+  }
+
+  .Special-Input {
+    font-size: 110%;
+    padding: 2%;
+    width: 94%;
+  }
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+
+  .Radius {
+    border-radius: 10%;
+  }
+
+  .Submit {
+    font-size: 120%;
+  }
 }
